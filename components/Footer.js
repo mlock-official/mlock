@@ -1,5 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import {
+  FaInstagram,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -90,11 +97,11 @@ export default function Footer() {
             <h3 className="mb-4 text-lg font-semibold text-[#18ee18]">Follow Us</h3>
             <div className="flex gap-4 text-xl">
               {[
-                ["Instagram", ""],
-                ["Facebook", ""],
-                ["LinkedIn", ""],
-                ["Twitter", ""],
-                ["YouTube", ""],
+                ["Instagram", <FaInstagram />],
+                ["Facebook", <FaFacebookF />],
+                ["LinkedIn", <FaLinkedinIn />],
+                ["Twitter", <FaTwitter />],
+                ["YouTube", <FaYoutube />],
               ].map(([label, icon]) => (
                 <Link
                   key={label}
@@ -109,19 +116,23 @@ export default function Footer() {
           </div>
         </div>
 
-        <hr className="my-8 w-4/5 border border-[#18ee18]/40" />
+        <hr className="my-8 w-full border border-[#18ee18]/40" />
 
         <div className="flex items-center justify-center">
           <Link href="https://mlock.in" className="block">
-            <Image
-              className="rounded-md hover:scale-105 transition duration-300"
-              src="/logo-light.jpg"
-              width={135}
-              height={60}
-              alt="Mlock Logo"
-            />
+            <div className="relative w-[135px] h-[60px]">
+              <Image
+                src="/logo-light.jpg"
+                alt="Logo"
+                fill
+                className="object-contain"
+                sizes="(max-width: 768px) 100vw, 135px"
+                priority
+              />
+            </div>
           </Link>
         </div>
+
 
         <p className="mt-4 text-center text-sm text-[#dbd9d9]">© 2025 Mlock. All rights reserved.</p>
       </div>
