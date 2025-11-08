@@ -34,14 +34,14 @@ const CircularFlow = () => {
 
         {/* Rotating red dot */}
         <g>
-          <circle cx="300" cy="175" r="5" fill="red" />
+          <circle cx="300" cy="175" r="10" fill="red" />
           <animateTransform
             attributeName="transform"
             attributeType="XML"
             type="rotate"
             from="0 175 175"
             to="360 175 175"
-            dur="5s"
+            dur="7s"
             repeatCount="indefinite"
           />
         </g>

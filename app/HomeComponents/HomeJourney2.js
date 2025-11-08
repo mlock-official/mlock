@@ -4,7 +4,7 @@ import { MdTrain } from "react-icons/md";
 import { FaBoxOpen, FaUserTie, FaBagShopping, FaCity } from "react-icons/fa6";
 import Travel from "./Travel";
 
-export default function HomeJourney() {
+export default function HomeJourney2() {
   const userRef = useRef(null);
   const bagRef = useRef(null);
 
@@ -65,28 +65,28 @@ export default function HomeJourney() {
         <br /> hello to hassle-free travel!
       </h2>
 
-      <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-[1.2fr_1fr]">
+      <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-[1.2fr_1fr]">
         {/* Animation area */}
         <Travel/>
 
         {/* Right content */}
-        <div>
+        <div className="mx-3">
           <p className="text-2xl font-bold text-[#0a1904]">Introducing for the first time ever</p>
           <h3 className="mt-1 text-[34px] font-extrabold text-[#0a1904]">
             #<span className="text-[#0a1904]">M</span>
             <span className="text-[#18ee18]">lock</span>
           </h3>
           <ul className="mt-4 space-y-3 text-[18px] text-[#0a1904] font-medium">
-            <li className="flex items-start gap-2">
-              <FaBagShopping className="mt-0.5 text-[#18ee18]" aria-hidden />
+            <li className="flex items-start gap-2 justify-center">
+              <FaBagShopping className="mt-0.5 text-[#18ee18] size-12" aria-hidden />
               <span>Traveling with heavy bags? Store them safely at our secure luggage stations.</span>
             </li>
             <li className="flex items-start gap-2">
-              <FaBoxOpen className="mt-0.5 text-[#18ee18]" aria-hidden />
+              <FaBoxOpen className="mt-0.5 text-[#18ee18] size-16" aria-hidden />
               <span>Simply drop off your luggage, enjoy your day hands-free, and pick it up whenever convenient.</span>
             </li>
             <li className="flex items-start gap-2">
-              <MdTrain className="mt-0.5 text-[#18ee18]" aria-hidden />
+              <MdTrain className="mt-0.5 text-[#18ee18] size-14" aria-hidden />
               <span>Seamless, secure, and hassle-free &ndash; Mlock is your ultimate travel companion.</span>
             </li>
           </ul>

@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { MdTrain } from "react-icons/md";
-import { FaBoxOpen, FaUserTie, FaBagShopping, FaCity } from "react-icons/fa6";
+import Image from "next/image";
 
 const Travel = () => {
   const userRef = useRef(null);
@@ -84,29 +83,44 @@ const Travel = () => {
 
         {/* Markers */}
         <div ref={stationRef} className="absolute left-[18%] top-[60px]" aria-hidden>
-          <FaBoxOpen className="text-[#0a1904]" size={28} />
+          {/* <FaBoxOpen className="text-[#0a1904]" size={28} /> */}
+          <Image
+          src={"/Home/lockers.png"}
+          height={40}
+          width={40}
+          alt="lockers"
+          />
         </div>
-        <div className="absolute left-0 top-[110px]" aria-hidden>
-          <MdTrain className="text-[#0a1904]" size={30} />
+        <div className="absolute left-0 top-[110px] text-3xl" aria-hidden>
+          {/* <MdTrain className="text-[#0a1904]" size={30} /> */}
+          🚉
         </div>
-        <div ref={cityRef} className="absolute right-0 top-[110px]" aria-hidden>
-          <FaCity className="text-[#0a1904]" size={30} />
+        <div ref={cityRef} className="absolute right-0 top-[110px] text-3xl" aria-hidden>
+          {/* <FaCity className="text-[#0a1904]" size={30} /> */}
+          🏬
         </div>
 
         {/* Moving icons */}
         <div
           ref={userRef}
-          className="absolute left-0 top-[110px] transition-transform duration-1000 ease-in-out"
+          className="absolute left-0 top-[110px] transition-transform duration-1000 ease-in-out text-3xl"
           aria-label="user"
         >
-          <FaUserTie className="text-[#0a1904]" size={26} />
+          {/* <FaUserTie className="text-[#0a1904]" size={26} /> */}
+          🧑‍💼
         </div>
         <div
           ref={bagRef}
-          className="absolute left-0 top-[140px] transition-transform duration-1000 ease-in-out"
+          className="absolute left-0 top-[140px] transition-transform duration-1000 ease-in-out text-3xl"
           aria-label="bag"
         >
-          <FaBagShopping className="text-[#0a1904]" size={22} />
+          {/* <FaBagShopping className="text-[#0a1904]" size={22} /> */}
+          <Image
+          src={"/Home/travel-bag.png"}
+          height={35}
+          width={35}
+          alt="lockers"
+          />
         </div>
       </div>
     </div>

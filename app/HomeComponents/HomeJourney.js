@@ -4,12 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import CircularFlow from "./CircularFlow";
 import Phone from "./Phone";
+
 export default function JourneySteps() {
   return (
     <section className="bg-white py-6 px-4">
       <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-12 items-start gap-8">
-        {/* Left: 3/4 width */}
-        <div className="md:col-span-9 flex flex-col justify-center">
+        {/* Left: 1/2 width */}
+        <div className="md:col-span-6 flex flex-col justify-center">
           <div className="mb-8 flex justify-center items-center w-full overflow-visible">
             <div className="w-[400px]">
               <CircularFlow />
@@ -38,9 +39,9 @@ export default function JourneySteps() {
           </div>
         </div>
 
-        {/* Right: 1/4 width */}
-        <div className="md:col-span-3 flex justify-center items-start">
-          <Phone/>
+        {/* Right: 1/2 width */}
+        <div className="md:col-span-6 flex justify-center items-start">
+          <Phone />
         </div>
       </div>
     </section>

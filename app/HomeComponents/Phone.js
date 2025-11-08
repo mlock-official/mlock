@@ -3,11 +3,11 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 const slideImages = [
-  "/slides/slide1.jpg",
-  "/slides/slide2.jpg",
-  "/slides/slide3.jpg",
-  "/slides/slide4.jpg",
-  "/slides/slide5.jpg",
+  "/Home/slides/slide1.jpg",
+  "/Home/slides/slide2.jpg",
+  "/Home/slides/slide3.jpg",
+  "/Home/slides/slide4.jpg",
+  "/Home/slides/slide5.jpg",
 ];
 
 const Phone = () => {
@@ -46,7 +46,7 @@ const Phone = () => {
 
       {/* Phone Frame */}
       <Image
-        src="/phonebg4.png"
+        src="/Home/phonebg.png"
         alt="Phone Frame"
         height={500}
         width={350}
