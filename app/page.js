@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <main>
       {/* Hero */}
-      <section className="px-6 pt-8">
+      <section className="px-6 pt-20">
         <h1 className="mx-6 mt-10 text-5xl md:text-7xl font-bold text-[#0a1904]">
           India&#8217;s <span className="text-[#18ee18]">Smart</span>
           <br />

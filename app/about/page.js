@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function About() {
     return (
         <main>
-            <section className="flex flex-col md:flex-row items-center justify-between py-12 px-4 bg-gray-100 gap-10">
+            <section className="flex flex-col md:flex-row items-center justify-between py-12 px-4 pt-25 bg-gray-100 gap-10">
                 {/* Left Content */}
-                <div className="w-full md:w-3/5 space-y-6">
+                <div className="w-full md:w-3/5 space-y-6 xl:pl-10">
                     <h1 className="text-3xl sm:text-4xl md:text-6xl font-medium text-[#0a1904] leading-snug">
                         India&apos;s Trusted <br />
                         <span className="text-[#18ee18] text-2xl sm:text-3xl md:text-6xl font-bold">

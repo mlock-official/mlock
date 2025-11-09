@@ -7,7 +7,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
 
     return (
-        <header className="flex justify-between items-center px-6 py-1 bg-white shadow-md relative z-50">
+        <header className="flex justify-between items-center px-6 py-1 bg-white shadow-md fixed z-50 w-full">
             {/* Logo */}
             <Link href="/" className="shrink-0">
                 <Image

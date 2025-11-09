@@ -8,12 +8,12 @@ export const metadata = {
 export default function SafetyPage() {
     return (
         <main className="bg-white text-black min-h-screen">
-            <section className="">
+            <section className="pt-17">
                 <div
-                    className="mx-auto flex min-h-[92vh] w-full items-center justify-center bg-cover bg-center px-5 text-center"
+                    className="mx-auto flex min-h-[91vh] w-full items-center justify-center bg-cover bg-center px-5 text-center"
                     style={{
                         backgroundImage:
-                            "linear-gradient(rgba(107,67,49,0.5), rgba(107,67,49,0.5)), url('/Safety/storyimg2.png')",
+                            "linear-gradient(rgba(107,67,49,0.5), rgba(107,67,49,0.5)), url('/Safety/storyimg2.webp')",
                     }}
                 >
                     <h1 className="text-balance text-3xl font-bold text-white md:text-5xl">
