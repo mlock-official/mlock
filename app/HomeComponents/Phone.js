@@ -50,6 +50,7 @@ const Phone = () => {
         alt="Phone Frame"
         height={500}
         width={350}
+        loading='eager'
         className="object-contain z-10 pointer-events-none absolute"
       />
 

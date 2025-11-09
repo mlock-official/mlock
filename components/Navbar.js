@@ -55,7 +55,7 @@ export default function Navbar() {
             {/* CTA Button */}
             <Link
                 href="#"
-                className="hidden md:block bg-[#18ee18] text-white font-bold py-3 px-7 rounded-md shadow-md hover:bg-[#4b4b4b] hover:scale-105 transition-all duration-300"
+                className="hidden lg:block bg-[#18ee18] text-white font-bold py-3 px-7 rounded-md shadow-md hover:bg-[#4b4b4b] hover:scale-105 transition-all duration-300"
             >
                 Download The App
             </Link>

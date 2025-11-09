@@ -134,57 +134,57 @@ export default function About() {
             </section>
 
             <section className="relative w-full h-auto min-h-[600px] my-10 bg-[url('/About/story-bg.png')] bg-cover bg-center">
-  {/* Fade overlay */}
-  <div className="absolute inset-0 bg-gray-500/40 z-0"></div>
+                {/* Fade overlay */}
+                <div className="absolute inset-0 bg-gray-500/40 z-0"></div>
 
-  {/* Layered content above the fade */}
-  <div className="relative z-10 h-full px-4 py-10 md:px-10 lg:px-20">
-    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 text-center">
-      Our Story
-    </h1>
+                {/* Layered content above the fade */}
+                <div className="relative z-10 h-full px-4 py-10 md:px-10 lg:px-20">
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 text-center">
+                        Our Story
+                    </h1>
 
-    <div className="flex flex-col lg:flex-row justify-center items-stretch gap-8">
-      {/* Slide 1 */}
-      <div className="p-6 md:p-8 lg:p-10 text-white flex-1">
-        <span className="text-lg md:text-xl lg:text-2xl font-semibold text-yellow-400 block mb-2">
-          ● 2024
-        </span>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
-          The Idea Takes Shape
-        </h2>
-        <p className="text-base md:text-lg lg:text-xl leading-relaxed max-w-prose">
-          Mlock was born from the need for secure and accessible luggage storage in public spaces. Seeing the struggles of travelers, we set out to create a smart, technology-driven solution.
-        </p>
-      </div>
+                    <div className="flex flex-col lg:flex-row justify-center items-stretch gap-8">
+                        {/* Slide 1 */}
+                        <div className="p-6 md:p-8 lg:p-10 text-white flex-1">
+                            <span className="text-lg md:text-xl lg:text-2xl font-semibold text-yellow-400 block mb-2">
+                                ● 2024
+                            </span>
+                            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+                                The Idea Takes Shape
+                            </h2>
+                            <p className="text-base md:text-lg lg:text-xl leading-relaxed max-w-prose">
+                                Mlock was born from the need for secure and accessible luggage storage in public spaces. Seeing the struggles of travelers, we set out to create a smart, technology-driven solution.
+                            </p>
+                        </div>
 
-      {/* Slide 2 */}
-      <div className="p-6 md:p-8 lg:p-10 text-white flex-1">
-        <span className="text-lg md:text-xl lg:text-2xl font-semibold text-yellow-400 block mb-2">
-          ● 2024
-        </span>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
-          From Vision to Prototype
-        </h2>
-        <p className="text-base md:text-lg lg:text-xl leading-relaxed max-w-prose">
-          With research, feedback, and strategic planning, we developed a user-friendly app and began designing our first prototype, ensuring security and convenience.
-        </p>
-      </div>
+                        {/* Slide 2 */}
+                        <div className="p-6 md:p-8 lg:p-10 text-white flex-1">
+                            <span className="text-lg md:text-xl lg:text-2xl font-semibold text-yellow-400 block mb-2">
+                                ● 2024
+                            </span>
+                            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+                                From Vision to Prototype
+                            </h2>
+                            <p className="text-base md:text-lg lg:text-xl leading-relaxed max-w-prose">
+                                With research, feedback, and strategic planning, we developed a user-friendly app and began designing our first prototype, ensuring security and convenience.
+                            </p>
+                        </div>
 
-      {/* Slide 3 */}
-      <div className="p-6 md:p-8 lg:p-10 text-white flex-1">
-        <span className="text-lg md:text-xl lg:text-2xl font-semibold text-yellow-400 block mb-2">
-          ● 2025
-        </span>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
-          Presenting
-        </h2>
-        <p className="text-base md:text-lg lg:text-xl leading-relaxed max-w-prose">
-          Currently, we are finalizing our prototype and preparing for presentations to showcase our solution. With a clear vision and growing team, we are committed to revolutionizing smart storage.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+                        {/* Slide 3 */}
+                        <div className="p-6 md:p-8 lg:p-10 text-white flex-1">
+                            <span className="text-lg md:text-xl lg:text-2xl font-semibold text-yellow-400 block mb-2">
+                                ● 2025
+                            </span>
+                            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+                                Presenting
+                            </h2>
+                            <p className="text-base md:text-lg lg:text-xl leading-relaxed max-w-prose">
+                                Currently, we are finalizing our prototype and preparing for presentations to showcase our solution. With a clear vision and growing team, we are committed to revolutionizing smart storage.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </main>
     );
