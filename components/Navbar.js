@@ -7,7 +7,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
 
     return (
-        <header className="flex justify-between items-center px-6 py-1 bg-white shadow-md fixed z-50 w-full">
+        <header className="flex justify-between items-center px-6 py-1 bg-white shadow-md fixed top-0 z-50 w-full">
             {/* Logo */}
             <Link href="/" className="shrink-0">
                 <Image
@@ -62,7 +62,7 @@ export default function Navbar() {
 
             {/* Mobile Menu */}
             {open && (
-                <nav className="absolute left-0 top-[72px] w-full backdrop-blur-md bg-black/70 text-white p-5 md:hidden space-y-2 rounded-b-xl shadow-lg animate-slide-down border-t border-white/10">
+                <nav className="absolute left-0 top-[67px] w-full backdrop-blur-md bg-black/70 text-white p-5 md:hidden space-y-2 rounded-b-xl shadow-lg animate-slide-down border-t border-white/10">
                     {[
                         { href: "/", label: "Home" },
                         { href: "/about", label: "About Us" },
