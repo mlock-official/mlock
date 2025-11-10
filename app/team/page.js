@@ -102,7 +102,7 @@ const team = () => {
 
                 <div className="flex flex-col md:flex-row items-center w-full">
                     <Image
-                        src="/Team/Jayesh.JPG"
+                        src="/Team/Jayesh.jpg"
                         alt="Jayesh Patel"
                         width={300}
                         height={300}
@@ -136,7 +136,7 @@ const team = () => {
 
                 <div className="flex flex-col md:flex-row items-center w-auto">
                     <Image
-                        src="/Team/Nawadha.JPG"
+                        src="/Team/Nawadha.jpg"
                         alt="Nawadha Jadiya"
                         width={300}
                         height={300}
