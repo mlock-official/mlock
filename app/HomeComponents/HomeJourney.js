@@ -31,7 +31,7 @@ export default function JourneySteps() {
               Download The App
             </Link>
             <Link
-              href="#"
+              href="/pricing"
               className="bg-white text-[#18ee18] font-bold py-3 px-6 rounded-md hover:bg-[#0a1904] transition"
             >
               Check Pricing

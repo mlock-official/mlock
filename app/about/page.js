@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+export const metadata = { title: "About | Mlock" };
+
 export default function About() {
     return (
         <main>
