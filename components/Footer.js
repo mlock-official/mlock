@@ -10,7 +10,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="mt-36 bg-[#0a1904] text-white">
+    <footer className="mt-10 bg-[#0a1904] text-white">
       <div className="mx-auto max-w-[1200px] px-4 py-12">
         <div className="flex flex-wrap justify-between gap-10 bg-[#0a1904]">
           {/* Get The App */}
@@ -84,8 +84,8 @@ export default function Footer() {
                 ["Terms & Conditions", "/terms"],
                 ["Privacy Policy", "/policy"],
                 ["FAQ", "/faq"],
-                ["Problem Clip", "/problem/video"],
-                ["Solution Video", "/solution/video"],
+                ["Problems", "/problem"],
+                ["Solution Video", "/solution"],
               ].map(([label, href]) => (
                 <li key={label}>
                   <Link
@@ -104,20 +104,23 @@ export default function Footer() {
             <h3 className="mb-4 text-lg font-semibold text-[#18ee18]">Follow Us</h3>
             <div className="flex gap-4 text-xl">
               {[
-                ["Instagram", <FaInstagram />],
+                ["https://www.instagram.com/mlock.official", <FaInstagram />],
                 ["Facebook", <FaFacebookF />],
-                ["LinkedIn", <FaLinkedinIn />],
+                ["https://www.linkedin.com/company/mlock/", <FaLinkedinIn />],
                 ["Twitter", <FaTwitter />],
-                ["YouTube", <FaYoutube />],
-              ].map(([label, icon]) => (
-                <Link
-                  key={label}
-                  href="#"
-                  aria-label={label}
+                ["https://www.Youtube.com/@mlockofficial", <FaYoutube />],
+              ].map(([url, icon]) => (
+                <a
+                  key={url}
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={url}
                   className="hover:text-[#18ee18] transition duration-300"
                 >
                   {icon}
-                </Link>
+                </a>
+
               ))}
             </div>
           </div>
