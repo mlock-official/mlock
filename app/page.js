@@ -51,15 +51,17 @@ export default function Home() {
         {/* Social icons row */}
         <div className="mb-10 flex flex-wrap items-center justify-center gap-6 text-[#18ee18]">
           {[
-            { icon: FaInstagram, label: "Instagram" },
-            { icon: FaFacebookF, label: "Facebook" },
-            { icon: FaLinkedinIn, label: "LinkedIn" },
-            { icon: FaTwitter, label: "Twitter" },
-            { icon: FaYoutube, label: "YouTube" },
-          ].map(({ icon: Icon, label }) => (
+            { icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/mlock.official" },
+            { icon: FaFacebookF, label: "Facebook", href: "#" },
+            { icon: FaLinkedinIn, label: "LinkedIn", href: "https://www.linkedin.com/company/mlock/" },
+            { icon: FaTwitter, label: "Twitter", href: "#" },
+            { icon: FaYoutube, label: "YouTube", href: "https://www.Youtube.com/@mlockofficial" },
+          ].map(({ icon: Icon, label, href }) => (
             <a
               key={label}
-              href="#"
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label={label}
               className="hover:scale-110 transition-transform duration-200 ease-in-out"
             >

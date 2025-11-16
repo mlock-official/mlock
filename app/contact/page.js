@@ -58,33 +58,33 @@ export default function ContactPage() {
                             name="name"
                             placeholder="Your Name"
                             required
-                            className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-blue-500 focus:outline-none"
+                            className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-[#18ee18] focus:outline-none"
                         />
                         <input
                             type="email"
                             name="email"
                             placeholder="Your Email"
                             required
-                            className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-blue-500 focus:outline-none"
+                            className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-[#18ee18] focus:outline-none"
                         />
                         <input
                             type="tel"
                             name="phone"
                             placeholder="Your Phone Number"
                             required
-                            className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-blue-500 focus:outline-none"
+                            className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-[#18ee18] focus:outline-none"
                         />
                         <input
                             name="location"
                             placeholder="Your Area/Location"
                             required
-                            className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-blue-500 focus:outline-none"
+                            className="w-full rounded-md border border-gray-300 px-4 py-3 focus:border-[#18ee18] focus:outline-none"
                         />
                         <textarea
                             name="message"
                             placeholder="Your Message"
                             required
-                            className="w-full rounded-md border border-gray-300 px-4 py-3 h-32 resize-none focus:border-blue-500 focus:outline-none"
+                            className="w-full rounded-md border border-gray-300 px-4 py-3 h-32 resize-none focus:border-[#18ee18] focus:outline-none"
                         />
                         <button
                             type="submit"

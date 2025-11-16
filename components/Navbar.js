@@ -2,94 +2,104 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
-    const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
-    return (
-        <header className="flex justify-between items-center px-6 py-1 bg-white shadow-md fixed top-0 z-50 w-full">
-            {/* Logo */}
-            <Link href="/" className="shrink-0">
-                <Image
-                    className="h-[60px] w-[135px] object-contain"
-                    src="/logo.jpg"
-                    width={135}
-                    height={60}
-                    alt="Mlock Logo"
-                    priority
-                />
-            </Link>
+  const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About Us" },
+    { href: "/safety", label: "Safety" },
+    { href: "/team", label: "Team" },
+    { href: "/blog", label: "Blog" },
+    { href: "/pricing", label: "Pricing" },
+    { href: "/contact", label: "Contact" },
+  ];
 
-            {/* Desktop Navigation */}
-            <nav className="hidden md:flex space-x-7 text-black font-medium">
-                {[
-                    { href: "/", label: "Home" },
-                    { href: "/about", label: "About Us" },
-                    { href: "/safety", label: "Safety" },
-                    { href: "/team", label: "Team" },
-                    { href: "/blog", label: "Blog" },
-                    { href: "/pricing", label: "Pricing" },
-                    { href: "/contact", label: "Contact" },
-                ].map(({ href, label }) => (
-                    <Link
-                        key={label}
-                        href={href}
-                        className="relative transition duration-300 hover:text-[#18ee18] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#18ee18] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                        {label}
-                    </Link>
-                ))}
-            </nav>
+  return (
+    <header className="flex justify-between items-center px-6 py-1 bg-white shadow-md fixed top-0 z-50 w-full">
+      {/* Logo */}
+      <Link href="/" className="shrink-0">
+        <Image
+          className="h-[60px] w-[135px] object-contain"
+          src="/logo.jpg"
+          width={135}
+          height={60}
+          alt="Mlock Logo"
+          priority
+        />
+      </Link>
 
-            {/* Mobile Menu Toggle */}
-            <div className="md:hidden">
-                <button
-                    aria-label="Toggle menu"
-                    className="text-3xl text-gray-700 hover:text-[#18ee18] transition duration-300"
-                    onClick={() => setOpen((v) => !v)}
-                >
-                    &#9776;
-                </button>
-            </div>
-
-            {/* CTA Button */}
+      {/* Desktop Navigation */}
+      <nav className="hidden md:flex space-x-7 text-black font-medium">
+        {navLinks.map(({ href, label }) => {
+          const isActive = pathname === href;
+          return (
             <Link
-                href="#"
-                className="hidden lg:block bg-[#18ee18] text-white font-bold py-3 px-7 rounded-md shadow-md hover:bg-[#4b4b4b] hover:scale-105 transition-all duration-300"
+              key={label}
+              href={href}
+              className={`relative transition duration-300 after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:bg-[#18ee18] after:transition-all after:duration-300 ${
+                isActive
+                  ? "text-[#18ee18] after:w-full"
+                  : "hover:text-[#18ee18] after:w-0 hover:after:w-full"
+              }`}
             >
-                Download The App
+              {label}
             </Link>
+          );
+        })}
+      </nav>
 
-            {/* Mobile Menu */}
-            {open && (
-                <nav className="absolute left-0 top-[67px] w-full backdrop-blur-md bg-black/70 text-white p-5 md:hidden space-y-2 rounded-b-xl shadow-lg animate-slide-down border-t border-white/10">
-                    {[
-                        { href: "/", label: "Home" },
-                        { href: "/about", label: "About Us" },
-                        { href: "/safety", label: "Safety" },
-                        { href: "/team", label: "Team" },
-                        { href: "/blog", label: "Blog" },
-                        { href: "/pricing", label: "Pricing" },
-                        { href: "/contact", label: "Contact" },
-                    ].map(({ href, label }) => (
-                        <Link
-                            key={label}
-                            href={href}
-                            className="block p-2 rounded-md hover:bg-[#18ee18]/90 hover:text-black transition duration-300 font-medium"
-                            onClick={() => setOpen(false)}
-                        >
-                            {label}
-                        </Link>
-                    ))}
-                    <Link
-                        href="#"
-                        className="block p-3 mt-2 bg-[#18ee18] text-white text-center rounded-md hover:bg-[#4b4b4b] transition duration-300 font-semibold shadow-md"
-                        onClick={() => setOpen(false)}
-                    >
-                        Download The App
-                    </Link>
-                </nav>
-            )}
-        </header>
-    );
+      {/* Mobile Menu Toggle */}
+      <div className="md:hidden">
+        <button
+          aria-label="Toggle menu"
+          className="text-3xl text-gray-700 hover:text-[#18ee18] transition duration-300"
+          onClick={() => setOpen((v) => !v)}
+        >
+          &#9776;
+        </button>
+      </div>
+
+      {/* CTA Button */}
+      <Link
+        href="#"
+        className="hidden lg:block bg-[#18ee18] text-white font-bold py-3 px-7 rounded-md shadow-md hover:bg-[#4b4b4b] hover:scale-105 transition-all duration-300"
+      >
+        Download The App
+      </Link>
+
+      {/* Mobile Menu */}
+      {open && (
+        <nav className="absolute left-0 top-[67px] w-full backdrop-blur-md bg-black/70 text-white p-5 md:hidden space-y-2 rounded-b-xl shadow-lg animate-slide-down border-t border-white/10">
+          {navLinks.map(({ href, label }) => {
+            const isActive = pathname === href;
+            return (
+              <Link
+                key={label}
+                href={href}
+                className={`block p-2 rounded-md font-medium transition duration-300 ${
+                  isActive
+                    ? "text-[#18ee18]"
+                    : "hover:bg-[#18ee18]/90 hover:text-black"
+                }`}
+                onClick={() => setOpen(false)}
+              >
+                {label}
+              </Link>
+            );
+          })}
+          <Link
+            href="#"
+            className="block p-3 mt-2 bg-[#18ee18] text-white text-center rounded-md hover:bg-[#4b4b4b] transition duration-300 font-semibold shadow-md"
+            onClick={() => setOpen(false)}
+          >
+            Download The App
+          </Link>
+        </nav>
+      )}
+    </header>
+  );
 }
