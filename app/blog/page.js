@@ -15,7 +15,7 @@ export default function BlogPage() {
       text: "Based on our survey, 80% of people expressed concerns over luggage safety. Mlock is here to change that.",
     },
     {
-      img: "Blog/solution-image3.webp",
+      img: "Blog/solution-image3.jpg",
       title: "Mlock's Solution",
       text: "We provide secure, automated luggage storage that ensures your belongings remain safe while you travel worry-free.",
     },
@@ -25,14 +25,14 @@ export default function BlogPage() {
       text: "Our users love the convenience and security of Mlock. Hear what they have to say about their experience.",
     },
     {
-      img: "Blog/future-image.jpg",
-      title: "Future Innovations",
-      text: "We are constantly working to enhance our technology and expand our services to more locations.",
+      img: "Blog/Achievement.jpg",
+      title: "Achievement",
+      text: "Our journey is marked by milestones that reflect our dedication, innovation, and relentless pursuit of excellence.",
     },
     {
-      img: "Blog/expansion-plan.jpg",
-      title: "Expansion Plans",
-      text: "Mlock is growing! Stay tuned for our upcoming launches in new cities and locations.",
+      img: "Blog/Oportunity.jpg",
+      title: "Opportunity",
+      text: "Explore new horizons with Mlock as we unlock exciting possibilities for growth and innovation.",
     },
   ];
 

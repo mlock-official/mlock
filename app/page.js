@@ -1,4 +1,6 @@
+"use client"
 import Image from "next/image";
+import { motion } from "framer-motion";
 import HomeJourney from "./HomeComponents/HomeJourney";
 import HomeJourney2 from "./HomeComponents/HomeJourney2";
 import {
@@ -24,15 +26,27 @@ export default function Home() {
     <main>
       {/* Hero */}
       <section className="px-6 pt-20">
-        <h1 className="mx-6 mt-10 text-5xl md:text-7xl font-bold text-[#0a1904]">
+        <motion.h1
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="mx-6 mt-10 text-5xl md:text-7xl font-bold text-[#0a1904]"
+        >
           India&#8217;s <span className="text-[#18ee18]">Smart</span>
           <br />
           Luggage Station
-        </h1>
-        <p className="mx-6 mt-3 text-2xl font-semibold text-[#0a1904]">
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
+          className="mx-6 mt-3 text-2xl font-semibold text-[#0a1904]"
+        >
           Join the future of seamless travel with secure, convenient, and innovative luggage solutions.
-        </p>
+        </motion.p>
       </section>
+
 
       <section className="mt-8">
         <HomeJourney />
@@ -52,9 +66,7 @@ export default function Home() {
         <div className="mb-10 flex flex-wrap items-center justify-center gap-6 text-[#18ee18]">
           {[
             { icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/mlock.official" },
-            { icon: FaFacebookF, label: "Facebook", href: "#" },
             { icon: FaLinkedinIn, label: "LinkedIn", href: "https://www.linkedin.com/company/mlock/" },
-            { icon: FaTwitter, label: "Twitter", href: "#" },
             { icon: FaYoutube, label: "YouTube", href: "https://www.Youtube.com/@mlockofficial" },
           ].map(({ icon: Icon, label, href }) => (
             <a

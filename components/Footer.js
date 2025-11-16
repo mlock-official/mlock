@@ -105,9 +105,7 @@ export default function Footer() {
             <div className="flex gap-4 text-xl">
               {[
                 ["https://www.instagram.com/mlock.official", <FaInstagram />],
-                ["Facebook", <FaFacebookF />],
                 ["https://www.linkedin.com/company/mlock/", <FaLinkedinIn />],
-                ["Twitter", <FaTwitter />],
                 ["https://www.Youtube.com/@mlockofficial", <FaYoutube />],
               ].map(([url, icon]) => (
                 <a

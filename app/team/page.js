@@ -76,9 +76,9 @@ const team = () => {
                     />
                     <div className="mt-6 md:mt-0 md:ml-10 text-center md:text-left w-full">
                         <h3 className="text-2xl font-bold text-gray-800">Shreyansh Jain</h3>
-                        <h4 className="text-indigo-600 font-semibold">Founder & Strategy Head</h4>
+                        <h4 className="text-indigo-600 font-semibold">Founder & CEO</h4>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            He is the driving force behind Mlock, turning an idea into a structured business model. He leads strategic planning, business operations, and partnerships, ensuring that Mlock grows with a clear vision and strong execution.
+                            He is the driving force behind Mlock, transforming a simple idea into a scalable and impactful business model. He leads the overall vision, strategic planning, and operations, ensuring that Mlock continues to grow with clarity, innovation, and strong execution. He builds key partnerships, drives expansion, and ensures the company stays aligned with its mission of solving real world luggage storage problems.
                         </p>
                     </div>
                 </div>
@@ -87,16 +87,16 @@ const team = () => {
                 <div className="flex flex-col md:flex-row-reverse items-center w-full">
                     <Image
                         src="/Team/Saif.jpg"
-                        alt="Saif Ali Shahk"
+                        alt="Saif Ali Shaikh"
                         width={300}
                         height={300}
                         className="rounded-full shadow-gray-500 shadow-lg object-cover"
                     />
                     <div className="mt-6 md:mt-0 md:mr-10 text-center md:text-left w-full">
-                        <h3 className="text-2xl font-bold text-gray-800">Saif Ali Shahk</h3>
-                        <h4 className="text-indigo-600 font-semibold">App Designer & Technical Team</h4>
+                        <h3 className="text-2xl font-bold text-gray-800">Saif Ali Shaikh</h3>
+                        <h4 className="text-indigo-600 font-semibold">Application Developer & Technical Lead</h4>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            He designs Mlock&#8217;s digital experience with intuitive, user-friendly interfaces. His design expertise ensures seamless interaction between technology and convenience.
+                            Saif is the technical backbone of the Mlock app. He has developed the complete application from scratch—handling design, functionality, and overall user experience. His strong technical expertise and attention to detail ensure that the Mlock platform runs smoothly, delivering a simple, intuitive, and reliable experience for every user.
                         </p>
                     </div>
                 </div>
@@ -112,9 +112,9 @@ const team = () => {
                     />
                     <div className="mt-6 md:mt-0 md:ml-10 text-center md:text-left w-full">
                         <h3 className="text-2xl font-bold text-gray-800">Jayesh Patel</h3>
-                        <h4 className="text-indigo-600 font-semibold">Product Prototype & Technical Team</h4>
+                        <h4 className="text-indigo-600 font-semibold">Product Prototype Engineer & Technical Lead</h4>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            He leads the development of Mlock&#8217;s physical infrastructure, ensuring secure and efficient luggage storage stations. His hands-on approach bridges the gap between innovation and implementation.
+                            Jayesh leads the development of Mlock&#8217;s physical infrastructure and has played a key role in building the MVP-ready locker prototype. He works hands-on with hardware design, mechanism testing, and reliability engineering to ensure that every Mlock unit is secure, durable, and ready for real-world use.
                         </p>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ const team = () => {
                         <h3 className="text-2xl font-bold text-gray-800">Prakhar Parihar</h3>
                         <h4 className="text-indigo-600 font-semibold">Full-Stack Web Developer (Intern)</h4>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Prakhar built and manages the entire company website solo. From structure and logic to deployment and performance, every technical detail is his responsibility. He ensures the platform runs smoothly, loads fast, and stays optimized across all devices.
+                            Prakhar single-handedly built and manages the entire company website, overseeing everything from architecture and logic to deployment and performance. He ensures fast loading, smooth functionality, and full optimization across all devices. Every technical detail from backend stability to frontend polish is under his expert care, delivering a seamless and scalable digital experience that powers the business forward
                         </p>
                     </div>
                 </div>
@@ -148,7 +148,7 @@ const team = () => {
                         <h3 className="text-2xl font-bold text-gray-800">Nawadha Jadiya</h3>
                         <h4 className="text-indigo-600 font-semibold">Application developer (Intern)</h4>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Nawadha supports backend development and feature implementation across the application. She contributes to coding tasks, bug fixes, and integration efforts with focus and precision.
+                            Nawadha supports backend development and feature implementation for the Mlock application. She contributes to coding tasks, bug fixes, and integration work with focus, consistency, and attention to detail, strengthening the technical foundation of the platform.
                         </p>
                     </div>
                 </div>
