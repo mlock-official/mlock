@@ -55,8 +55,8 @@ export default function TermsPage() {
           </div>
           <p className="text-[17px] leading-relaxed">
             If you have any questions about these Terms and Conditions, please contact us at{" "}
-            <a href="mailto:support@mlock.com" className="text-blue-600 underline">
-              support@mlock.com
+            <a href="mailto:mlockofficial@gmail.com" className="text-blue-600 underline">
+              mlockofficial@gmail.com
             </a>.
           </p>
         </div>
