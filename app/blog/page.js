@@ -32,7 +32,7 @@ export default function BlogPage() {
 {
   img: "Blog/Oportunity.jpg",
     title: "ISS Idea Stage Grant Selection",
-      text: "Mlock received a major opportunity as our founder was selected in the Top 40 innovators nationwide for the ISS Idea Stage Grant (July 2025).This recognition opens doors for mentorship, networking, and potential grant support to accelerate Mlock&#8217;s growth and impact.",
+      text: "Mlock received a major opportunity as our founder was selected in the Top 40 innovators nationwide for the ISS Idea Stage Grant (July 2025).This recognition opens doors for mentorship, networking, and potential grant support to accelerate Mlock's growth and impact.",
     },
   ];
 
