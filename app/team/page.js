@@ -153,6 +153,23 @@ const team = () => {
                     </div>
                 </div>
 
+                <div className="flex flex-col md:flex-row-reverse items-center w-full">
+                    <Image
+                        src="/Team/Himanshu.jpg"
+                        alt="Himanshu Ubale"
+                        width={300}
+                        height={300}
+                        className="rounded-full shadow-gray-500 shadow-lg object-cover"
+                    />
+                    <div className="mt-6 md:mt-0 md:mr-10 text-center md:text-left w-full">
+                        <h3 className="text-2xl font-bold text-gray-800">Himanshu Ubale</h3>
+                        <h4 className="text-indigo-600 font-semibold">Product Designer (Intern)</h4>
+                        <p className="mt-4 text-lg text-gray-700 leading-relaxed">
+                            Himanshu Ubale is the Product Designer Intern at Mlock, working on CAD models, technical drawings, and product prototypes. He helps design the smart locker structure, improve durability, and prepare hardware components for real-world use. His skills in SolidWorks, AutoCAD, and Fusion 360 support Mlock in turning ideas into practical, manufacturable designs.
+                        </p>
+                    </div>
+                </div>
+
             </div>
 
 
