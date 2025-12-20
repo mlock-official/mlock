@@ -130,7 +130,7 @@ export default function Footer() {
           <Link href="https://mlock.in" className="block">
             <div className="relative w-[135px] h-[60px]">
               <Image
-                src="/logo-light.jpg"
+                src="/LogoLight.png"
                 alt="Logo"
                 fill
                 className="object-contain"

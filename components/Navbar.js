@@ -24,7 +24,7 @@ export default function Navbar() {
       <Link href="/" className="shrink-0">
         <Image
           className="h-[60px] w-[135px] object-contain"
-          src="/logo.jpg"
+          src="/LogoDark.png"
           width={135}
           height={60}
           alt="Mlock Logo"
