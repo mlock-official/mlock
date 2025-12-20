@@ -68,6 +68,7 @@ export default function Home() {
             { icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/mlock.official" },
             { icon: FaLinkedinIn, label: "LinkedIn", href: "https://www.linkedin.com/company/mlock/" },
             { icon: FaYoutube, label: "YouTube", href: "https://www.Youtube.com/@mlockofficial" },
+            { icon: FaFacebookF, label: "Facebook", href: "https://www.facebook.com/share/1A7HNkXiJ2/" },
           ].map(({ icon: Icon, label, href }) => (
             <a
               key={label}

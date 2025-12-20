@@ -107,6 +107,7 @@ export default function Footer() {
                 ["https://www.instagram.com/mlock.official", <FaInstagram />],
                 ["https://www.linkedin.com/company/mlock/", <FaLinkedinIn />],
                 ["https://www.Youtube.com/@mlockofficial", <FaYoutube />],
+                ["https://www.facebook.com/share/1A7HNkXiJ2/", <FaFacebookF />],
               ].map(([url, icon]) => (
                 <a
                   key={url}
