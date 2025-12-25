@@ -16,7 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Mlock",
   description: "mlock : smart luggage station",
-  Content: "we provide a luggage stations at public places"
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({ children }) {
