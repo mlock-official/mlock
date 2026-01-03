@@ -7,6 +7,11 @@ export default function sitemap() {
       lastModified: new Date().toISOString(),
       changeFrequency: "weekly",
       priority: 1,
+      images: [
+        {
+          url: `${baseUrl}/favicon.ico`,
+        },
+      ],
     },
     {
       url: `${baseUrl}/about`,
