@@ -19,18 +19,6 @@ export const metadata = {
   icons: {
     icon: '/favicon.ico',
   },
-  openGraph: {
-    title: "Mlock - Smart Luggage Station",
-    description: "mlock : smart luggage station",
-    url: "https://mlock.in",
-    type: "website",
-    images: [
-      {
-        url: "https://mlock.in/favicon.ico",
-        alt: "Mlock Logo",
-      },
-    ],
-  },
 };
 
 export default function RootLayout({ children }) {
