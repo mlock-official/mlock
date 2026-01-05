@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
         <script
           type="application/ld+json"
