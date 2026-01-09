@@ -170,6 +170,23 @@ const team = () => {
                     </div>
                 </div>
 
+                <div className="flex flex-col md:flex-row items-center w-auto">
+                    <Image
+                        src="/Team/charul.jpg"
+                        alt="Charul Pathak"
+                        width={300}
+                        height={300}
+                        className="rounded-full shadow-gray-500 shadow-lg object-cover"
+                    />
+                    <div className="mt-6 md:mt-0 md:ml-10 text-center md:text-left w-full">
+                        <h3 className="text-2xl font-bold text-gray-800">Charul Pathak</h3>
+                        <h4 className="text-indigo-600 font-semibold">Social Media (Intern)</h4>
+                        <p className="mt-4 text-lg text-gray-700 leading-relaxed">
+                            Charul contributes to the team by editing and refining social media content for better engagement. She ensures posts are visually appealing, consistent with brand identity, and polished for publication. Her support strengthens the team&#8217;s online presence and communication.
+                        </p>
+                    </div>
+                </div>
+
             </div>
 
 
