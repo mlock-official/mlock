@@ -75,7 +75,7 @@ const team = () => {
                         className="rounded-full shadow-gray-500 shadow-lg object-cover"
                     />
                     <div className="mt-6 md:mt-0 md:ml-10 text-center md:text-left w-full">
-                        <h3 className="text-2xl font-bold text-gray-800">Shreyansh Jain</h3>
+                        <h3 className="text-2xl font-bold text-gray-800">Shreyansh Rangawat</h3>
                         <h4 className="text-indigo-600 font-semibold">Founder & CEO</h4>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
                             He is the driving force behind Mlock, transforming a simple idea into a scalable and impactful business model. He leads the overall vision, strategic planning, and operations, ensuring that Mlock continues to grow with clarity, innovation, and strong execution. He builds key partnerships, drives expansion, and ensures the company stays aligned with its mission of solving real world luggage storage problems.
@@ -183,6 +183,23 @@ const team = () => {
                         <h4 className="text-indigo-600 font-semibold">Social Media (Intern)</h4>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
                             Charul contributes to the team by editing and refining social media content for better engagement. She ensures posts are visually appealing, consistent with brand identity, and polished for publication. Her support strengthens the team&#8217;s online presence and communication.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="flex flex-col md:flex-row-reverse items-center w-full">
+                    <Image
+                        src="/Team/Nitin.jpg"
+                        alt="Nitin Dubey"
+                        width={300}
+                        height={300}
+                        className="rounded-full shadow-gray-500 shadow-lg object-cover"
+                    />
+                    <div className="mt-6 md:mt-0 md:mr-10 text-center md:text-left w-full">
+                        <h3 className="text-2xl font-bold text-gray-800">Nitin Dubey</h3>
+                        <h4 className="text-indigo-600 font-semibold">IOT & Hardware (Intern)</h4>
+                        <p className="mt-4 text-lg text-gray-700 leading-relaxed">
+                            As our IoT & Hardware Intern, he supports smart locker development with hands-on hardware work. He contributes to battery backup systems, setups, and testing. His problem-solving spirit helps turn ideas into working solutions.
                         </p>
                     </div>
                 </div>

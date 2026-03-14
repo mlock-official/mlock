@@ -142,7 +142,7 @@ export default function Footer() {
         </div>
 
 
-        <p className="mt-4 text-center text-sm text-[#dbd9d9]">© 2025 Mlock. All rights reserved.</p>
+        <p className="mt-4 text-center text-sm text-[#dbd9d9]">© 2026 Mlock. All rights reserved.</p>
       </div>
     </footer>
   );
