@@ -70,8 +70,8 @@ const team = () => {
                     <Image
                         src="/Team/Shreyansh.jpg"
                         alt="Shreyansh Jain"
-                        width={300}
-                        height={300}
+                        width={400}
+                        height={400}
                         className="rounded-full shadow-gray-500 shadow-lg object-cover"
                     />
                     <div className="mt-6 md:mt-0 md:ml-10 text-center md:text-left w-full">
@@ -94,9 +94,9 @@ const team = () => {
                     />
                     <div className="mt-6 md:mt-0 md:mr-10 text-center md:text-left w-full">
                         <h3 className="text-2xl font-bold text-gray-800">Saif Ali Shaikh</h3>
-                        <h4 className="text-indigo-600 font-semibold">Application Developer & Technical Lead</h4>
+                        <h4 className="text-indigo-600 font-semibold">CTO - Chief Technology officer</h4>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Saif is the technical backbone of the Mlock app. He has developed the complete application from scratch—handling design, functionality, and overall user experience. His strong technical expertise and attention to detail ensure that the Mlock platform runs smoothly, delivering a simple, intuitive, and reliable experience for every user.
+                            Saif is the technical backbone of Mlock. He built the app from scratch, shaping its design, functionality, and user experience. His expertise and precision ensure Mlock runs seamlessly, delivering a simple and reliable platform for every user.
                         </p>
                     </div>
                 </div>
@@ -104,88 +104,21 @@ const team = () => {
 
                 <div className="flex flex-col md:flex-row items-center w-full">
                     <Image
-                        src="/Team/Jayesh.jpg"
-                        alt="Jayesh Patel"
-                        width={300}
-                        height={300}
-                        className="rounded-full shadow-gray-500 shadow-lg object-cover"
-                    />
-                    <div className="mt-6 md:mt-0 md:ml-10 text-center md:text-left w-full">
-                        <h3 className="text-2xl font-bold text-gray-800">Jayesh Patel</h3>
-                        <h4 className="text-indigo-600 font-semibold">Product Prototype Engineer & Technical Lead</h4>
-                        <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Jayesh leads the development of Mlock&#8217;s physical infrastructure and has played a key role in building the MVP-ready locker prototype. He works hands-on with hardware design, mechanism testing, and reliability engineering to ensure that every Mlock unit is secure, durable, and ready for real-world use.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="flex flex-col md:flex-row-reverse items-center w-full">
-                    <Image
                         src="/Team/Prakhar.jpg"
                         alt="Prakhar Parihar"
                         width={300}
                         height={300}
                         className="rounded-full shadow-gray-500 shadow-lg object-cover"
                     />
-                    <div className="mt-6 md:mt-0 md:mr-10 text-center md:text-left w-full">
+                    <div className="mt-6 md:mt-0 md:ml-10 text-center md:text-left w-full">
                         <h3 className="text-2xl font-bold text-gray-800">Prakhar Parihar</h3>
-                        <h4 className="text-indigo-600 font-semibold">Full-Stack Web Developer (Intern)</h4>
+                        <h4 className="text-indigo-600 font-semibold">Lead Software Engineer</h4>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Prakhar single-handedly built and manages the entire company website, overseeing everything from architecture and logic to deployment and performance. He ensures fast loading, smooth functionality, and full optimization across all devices. Every technical detail from backend stability to frontend polish is under his expert care, delivering a seamless and scalable digital experience that powers the business forward
+                            Prakhar blends technical expertise with leadership. With hands&ndash;on experience in full&ndash;stack development and scalable architecture, he drives projects from concept to deployment efficiently. Known for his problem&ndash;solving mindset and ability to mentor peers, he ensures high&ndash;quality solutions while fostering collaboration. His focus on clean code, performance, and user&ndash;centric design makes him a key contributor to the company&rsquo;s growth.
                         </p>
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row items-center w-auto">
-                    <Image
-                        src="/Team/Nawadha.jpg"
-                        alt="Nawadha Jadiya"
-                        width={300}
-                        height={300}
-                        className="rounded-full shadow-gray-500 shadow-lg object-cover"
-                    />
-                    <div className="mt-6 md:mt-0 md:ml-10 text-center md:text-left w-full">
-                        <h3 className="text-2xl font-bold text-gray-800">Nawadha Jadiya</h3>
-                        <h4 className="text-indigo-600 font-semibold">Application developer (Intern)</h4>
-                        <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Nawadha supports backend development and feature implementation for the Mlock application. She contributes to coding tasks, bug fixes, and integration work with focus, consistency, and attention to detail, strengthening the technical foundation of the platform.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="flex flex-col md:flex-row-reverse items-center w-full">
-                    <Image
-                        src="/Team/Himanshu.jpg"
-                        alt="Himanshu Ubale"
-                        width={300}
-                        height={300}
-                        className="rounded-full shadow-gray-500 shadow-lg object-cover"
-                    />
-                    <div className="mt-6 md:mt-0 md:mr-10 text-center md:text-left w-full">
-                        <h3 className="text-2xl font-bold text-gray-800">Himanshu Ubale</h3>
-                        <h4 className="text-indigo-600 font-semibold">Product Designer (Intern)</h4>
-                        <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Himanshu Ubale is the Product Designer Intern at Mlock, working on CAD models, technical drawings, and product prototypes. He helps design the smart locker structure, improve durability, and prepare hardware components for real-world use. His skills in SolidWorks, AutoCAD, and Fusion 360 support Mlock in turning ideas into practical, manufacturable designs.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="flex flex-col md:flex-row items-center w-auto">
-                    <Image
-                        src="/Team/charul.jpg"
-                        alt="Charul Pathak"
-                        width={300}
-                        height={300}
-                        className="rounded-full shadow-gray-500 shadow-lg object-cover"
-                    />
-                    <div className="mt-6 md:mt-0 md:ml-10 text-center md:text-left w-full">
-                        <h3 className="text-2xl font-bold text-gray-800">Charul Pathak</h3>
-                        <h4 className="text-indigo-600 font-semibold">Social Media (Intern)</h4>
-                        <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            Charul contributes to the team by editing and refining social media content for better engagement. She ensures posts are visually appealing, consistent with brand identity, and polished for publication. Her support strengthens the team&#8217;s online presence and communication.
-                        </p>
-                    </div>
-                </div>
 
                 <div className="flex flex-col md:flex-row-reverse items-center w-full">
                     <Image
@@ -197,9 +130,9 @@ const team = () => {
                     />
                     <div className="mt-6 md:mt-0 md:mr-10 text-center md:text-left w-full">
                         <h3 className="text-2xl font-bold text-gray-800">Nitin Dubey</h3>
-                        <h4 className="text-indigo-600 font-semibold">IOT & Hardware (Intern)</h4>
+                        <h4 className="text-indigo-600 font-semibold">IOT & Hardware Product Lead</h4>
                         <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-                            As our IoT & Hardware Intern, he supports smart locker development with hands-on hardware work. He contributes to battery backup systems, setups, and testing. His problem-solving spirit helps turn ideas into working solutions.
+                            As our IoT & Hardware Lead, he drives smart locker development with hands-on hardware expertise. From battery backup systems to setups and testing, his problem-solving spirit transforms ideas into reliable, working solutions.
                         </p>
                     </div>
                 </div>
